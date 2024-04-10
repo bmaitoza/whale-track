@@ -5,7 +5,6 @@ const NavbarWrapper = styled.nav`
     width: 100%;
     height: 90px;
     position: fixed;
-    z-index:10;
     background-color: ${({ affix }) => (affix ? '#010134' : 'transparent')};
     transition: all 0.6s ease;
 `;
@@ -32,7 +31,7 @@ const NavItem = styled.li`
         font-weight: bold;
         font-family: tahoma, sans-serif;
         &:hover {
-            color: ${({ affix }) => (affix ? 'grey' : 'navy')};
+            color: ${({ affix }) => (affix ? 'grey' : 'black')};
         }
     }
 `;
@@ -72,7 +71,7 @@ const Navbar = () => {
                             <a href="donate">Donate</a>
                         </NavItem>
                         <NavItem>
-                            <a href="create-pledge">Create Pledge</a>
+                            <a href="pledge">Create Pledge</a>
                         </NavItem>
                         <NavItem>
                             <a href="login">Login</a>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import HomeSection from "../components/LandingPage";
+import styled from 'styled-components';
 
 export default function Home() {
   return (
@@ -14,17 +15,16 @@ export default function Home() {
 
       <Navbar />
 
-      <HomeSection>
+      <HomeSection
         bgImage=""
-        subheading1="Pick Your Own. The Way It Used To Be."
-        subheading2="Since 1916."
-        height="110vh"
-        headingSize="6rem"
-        subheadingSize="2.5rem"
+        heading="Decentralized Crowdfunding Platform"
+        subheading1="Transparency in all crowdfunding transactions!"
+        height="100vh"
+        headingSize="5rem"
+        subheadingSize="2rem"
         imagePosition="center top"
-        logoImage="/MeadLogo.png"
-        showLogo={true}
-      </HomeSection>
+        showButton="true"
+      />
     </>
   );
 }

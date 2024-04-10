@@ -21,15 +21,19 @@ const LandingTextWrapper = styled.div`
     margin: 10%;
 `;
 
-const SubheadingText = styled.p`
+const HeadingText = styled.p`
     text-decoration: none;
-    color: white;
-    font-size: ${props => props.subheadingSize}; /* Use props to set the font size for the subheading */
-    text-shadow: 2px 2px 4px black;
+    color: black;
+    font-size: ${props => props.headingSize}; /* Use props to set the font size for the subheading */
     font-family: arial, sans-serif;
     font-weight: bold;
-    font-style: italic;
-    margin: 0;
+`;
+
+const SubheadingText = styled.p`
+    text-decoration: none;
+    color: black;
+    font-size: ${props => props.subheadingSize}; /* Use props to set the font size for the subheading */
+    font-family: arial, sans-serif;
 `;
 
 const ImageWrapper = styled.img`
@@ -40,8 +44,8 @@ const ImageWrapper = styled.img`
 
 const Button = styled.button`
     padding: 10px 20px;
-    color: ${({ isHovered }) => (isHovered ? '#022F40' : 'white')};
-    background-color: ${({ isHovered }) => (isHovered ? 'white' : 'transparent')};
+    color: ${({ isHovered }) => (isHovered ? 'grey' : 'black')};
+    background-color: ${({ isHovered }) => (isHovered ? 'black' : 'transparent')};
     font-size: 1.2rem;
     font-weight: bold;
     border: solid;
@@ -55,15 +59,14 @@ const LandingPage = ({ width, bgImage, heading, subheading1, subheading2, height
     return (
         <HomeSectionWrapper bgImage={bgImage} height={height} imagePosition={imagePosition} width={width}>
             <LandingTextWrapper>
-            <title text='Mead Orchards' fontSize='6rem' />
+            <HeadingText headingSize={headingSize}>{heading}</HeadingText>
                 <br />
                 <SubheadingText subheadingSize={subheadingSize}>{subheading1}</SubheadingText>
-                <SubheadingText subheadingSize={subheadingSize}>{subheading2}</SubheadingText>
                 <br />
                 {showLogo && <ImageWrapper src={logoImage} />}
                 {showButton && (
                     <>
-                        <Button>Sign Up Here</Button>
+                        <Button>Login</Button>
                     </>
                 )}
             </LandingTextWrapper>

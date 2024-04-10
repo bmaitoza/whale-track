@@ -13,6 +13,10 @@
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.8",
-    "typewriter": "^9.2.0"
+    "typewriter": "^9.2.0",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.75"
   }
 }
