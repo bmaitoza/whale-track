@@ -62,31 +62,31 @@ const CryptoTracker = () => {
 <p>Owned BTC: 1017 BTC</p> 
 <p>Recent Transaction: Bought 50 BTC</p> 
 </WalletContainer>
-<h1>Top 5 BTC Wallets</h1>
+<h1>Top 5 ETH Wallets</h1>
             <WalletContainer>
               <p>Wallet Address: 0x108ef6ba </p>
-              <p>Owned BTC: 1017 BTC</p> 
-              <p>Recent Transaction: Bought 50 BTC</p> 
+              <p>Owned ETH: 1017 ETH</p> 
+              <p>Recent Transaction: Bought 50 ETH</p> 
           </WalletContainer>
           <WalletContainer>
 <p>Wallet Address: 0x108ef6ba </p>
-<p>Owned BTC: 1017 BTC</p> 
-<p>Recent Transaction: Bought 50 BTC</p> 
+<p>Owned ETH: 1017 ETH</p> 
+<p>Recent Transaction: Bought 50 ETH</p> 
 </WalletContainer>
 <WalletContainer>
 <p>Wallet Address: 0x108ef6ba </p>
-<p>Owned BTC: 1017 BTC</p> 
-<p>Recent Transaction: Bought 50 BTC</p> 
+<p>Owned ETH: 1017 ETH</p> 
+<p>Recent Transaction: Bought 50 ETH</p> 
 </WalletContainer>
 <WalletContainer>
 <p>Wallet Address: 0x108ef6ba </p>
-<p>Owned BTC: 1017 BTC</p> 
-<p>Recent Transaction: Bought 50 BTC</p> 
+<p>Owned ETH: 1017 ETH</p> 
+<p>Recent Transaction: Bought 50 ETH</p> 
 </WalletContainer>
 <WalletContainer>
 <p>Wallet Address: 0x108ef6ba </p>
-<p>Owned BTC: 1017 BTC</p> 
-<p>Recent Transaction: Bought 50 BTC</p> 
+<p>Owned ETH: 1017 ETH</p> 
+<p>Recent Transaction: Bought 50 ETH</p> 
 </WalletContainer>
 </CryptoTrackerContainer>
 
