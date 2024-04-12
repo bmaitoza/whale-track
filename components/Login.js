@@ -15,11 +15,6 @@ const LoginForm = styled.form`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
-const FormTitle = styled.h2`
-  text-align: center;
-  margin-bottom: 20px;
-`;
-
 const FormInput = styled.input`
   width: 100%;
   padding: 10px;
@@ -58,7 +53,6 @@ const LoginPage = () => {
   return (
     <LoginPageContainer>
       <LoginForm onSubmit={handleLogin}>
-        <FormTitle>Login</FormTitle>
         <FormInput
           type="text"
           placeholder="Username"

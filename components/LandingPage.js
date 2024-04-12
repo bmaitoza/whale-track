@@ -54,7 +54,7 @@ const Button = styled.button`
     margin-top: 20px;
 `;
 
-const LandingPage = ({ width, bgImage, heading, subheading1, subheading2, height, headingSize, subheadingSize, imagePosition, showButton, logoImage, showLogo }) => {
+const LandingPage = ({ width, bgImage, heading, subheading1, height, headingSize, subheadingSize, imagePosition, showButton, logoImage, showLogo }) => {
 
     return (
         <HomeSectionWrapper bgImage={bgImage} height={height} imagePosition={imagePosition} width={width}>

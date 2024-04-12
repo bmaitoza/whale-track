@@ -4,9 +4,7 @@ import styled from 'styled-components';
 const NavbarWrapper = styled.nav`
     width: 100%;
     height: 90px;
-    position: fixed;
-    background-color: ${({ affix }) => (affix ? '#010134' : 'transparent')};
-    transition: all 0.6s ease;
+
 `;
 
 const MainList = styled.div`
@@ -37,7 +35,7 @@ const NavItem = styled.li`
 `;
 
 const LogoImage = styled.img`
-    width: 15vw;
+    width: 7vw;
     height: auto;`
 // Functional component for the navbar
 const Navbar = () => {
@@ -65,17 +63,14 @@ const Navbar = () => {
                 <MainList>
                     <NavLinks>
                         <NavItem>
-                            <a href="/"><LogoImage src={'OpenSourceLogo.png'} alt = "Home" /></a>
+                            <a href="/"><LogoImage src={'whale-logo.jpg'} alt = "Home" /></a>
                         </NavItem>
                         <NavItem>
-                            <a href="donate">Donate</a>
+                            <a href="login">Sign In</a>
                         </NavItem>
                         <NavItem>
-                            <a href="pledge">Create Pledge</a>
-                        </NavItem>
-                        <NavItem>
-                            <a href="login">Login</a>
-                        </NavItem>           
+                            <a href="whale-track">Whale Tracker</a>
+                        </NavItem>       
                     </NavLinks>
                 </MainList>
             </div>
