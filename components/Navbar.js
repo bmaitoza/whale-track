@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import {ConnectedWallet} from '@thirdweb-dev/react';
+import ConnectedWalletFunct from '../components/ConnectWallet';
 
 const NavbarWrapper = styled.nav`
     width: 100%;
@@ -70,7 +72,8 @@ const Navbar = () => {
                         </NavItem>
                         <NavItem>
                             <a href="whale-track">Whale Tracker</a>
-                        </NavItem>       
+                        </NavItem>   
+                        <ConnectedWalletFunct />   
                     </NavLinks>
                 </MainList>
             </div>

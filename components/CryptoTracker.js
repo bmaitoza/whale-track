@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import ethers from 'ethers';
+import{useStorage, useSigner} from '@thirdweb-dev/react';
 
 const CryptoTrackerContainer = styled.div`
   margin: 10vh;

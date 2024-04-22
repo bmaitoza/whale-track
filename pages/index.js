@@ -2,8 +2,22 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import HomeSection from "../components/LandingPage";
 import styled from 'styled-components';
+import { useEffect } from "react";
+import {ethers} from 'ethers';
+
 
 export default function Home() {
+  const router = useRouter();
+  const signer = useSigner();
+
+  useEffect(() => {
+    const AsyncFunction = async () => {
+      if(!signer){return}
+      const contract = new ethers.Contract()
+
+    }
+  })
+  
   return (
     <>
       <Head>
