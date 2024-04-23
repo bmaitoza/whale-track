@@ -24,10 +24,10 @@ const Divider = styled.div`
 
           <Navbar />
 
-        <Divider />
+        {/* <Divider /> */}
 
 
-        <CryptoTracker />
+        {/* <CryptoTracker /> */}
         </>
       );
     }

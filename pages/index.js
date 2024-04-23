@@ -29,7 +29,7 @@ export default function Home() {
 
       <Navbar />
 
-      <HomeSection
+      {/* <HomeSection
         bgImage=""
         heading="Tracking the Biggest Cryptocurrency Whales"
         subheading1="See What the Big Wallets are Doing for the Top 5 Cryptocurrencies"
@@ -38,7 +38,7 @@ export default function Home() {
         subheadingSize="2rem"
         imagePosition="center top"
         showButton="true"
-      />
+      /> */}
     </>
   );
 }

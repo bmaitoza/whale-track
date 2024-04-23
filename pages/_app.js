@@ -53,27 +53,23 @@ import { ThirdwebProvider, metamaskWallet,
   export default function App({ Component, pageProps }) {
     return (
     <>    
-      <Head>
-        <title>Whale Tracking</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Traacking Top Wallets in Crypto" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-  
       <StateContext>
-      <ThirdwebProvider
-      supportedWallets={[
-        metamaskWallet({
-          recommended: true,
-        }),
-        coinbaseWallet(),
-        walletConnect(),
-      ]}
-      clientId="80ebbd6cddb0c60ab49912d7f508e9f3">
-    </ThirdwebProvider>
-      </StateContext>
+        
+        {/* <ThirdwebProvider
+        supportedWallets={[
+          metamaskWallet({
+            recommended: true,
+          }),
+          coinbaseWallet(),
+          walletConnect(),
+        ]}
+        clientId="80ebbd6cddb0c60ab49912d7f508e9f3">
+                 */}
+        <Component {...pageProps} />
+      
+      {/* </ThirdwebProvider> */}
+    </StateContext>
   
-      <GlobalStyle />
     </>
     ) 
   }

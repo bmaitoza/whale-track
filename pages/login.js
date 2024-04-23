@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <LoginPage
-      />
+      {/* <LoginPage /> */}
+      
     </>
   );
 }
