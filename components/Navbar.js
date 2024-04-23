@@ -73,7 +73,7 @@ const Navbar = () => {
                         <NavItem>
                             <a href="whale-track">Whale Tracker</a>
                         </NavItem>   
-                        <ConnectedWalletFunct />   
+                        <ConnectedWallet />   
                     </NavLinks>
                 </MainList>
             </div>

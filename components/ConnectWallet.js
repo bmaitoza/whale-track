@@ -1,10 +1,8 @@
 import { ThirdwebProvider, ConnectButton } from "@thirdweb-dev/react";
 import {createWallet, walletConnect, inAppWallet } from "thirdweb/wallets";
+import { createThirdwebClient } from "@thirdweb-dev/react";
   
-  const client = createThirdwebClient({
-    clientId: "YOUR_CLIENT_ID",
-  });
-  
+
   const wallets = [
     createWallet("io.metamask"),
     createWallet("com.coinbase.wallet"),
